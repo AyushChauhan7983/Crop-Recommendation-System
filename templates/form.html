@@ -695,31 +695,31 @@
       <form action="/predict" method="POST">
           <div class="row" style="padding: 25px">
               <div class="col-md-4" >
-					<input type="number" id="Nitrogen" name="Nitrogen" placeholder="Enter Nitrogen" class="form-control" required step="0">
+					<input type="number" step="0.1" id="Nitrogen" name="Nitrogen" placeholder="Enter Nitrogen" class="form-control" required step="0" min="0" max="120">
 				</div>
                <div class="col-md-4">
-					<input type="number" id="Phosphorus" name="Phosphorus" placeholder="Enter Phosphorus" class="form-control" required step="0">
+					<input type="number" step="0.1" id="Phosphorus" name="Phosphorus" placeholder="Enter Phosphorus" class="form-control" required step="0" min="0" max="80">
 				</div>
 				<div class="col-md-4">
-					<input type="number" id="Potassium" name="Potassium" placeholder="Enter Potassium" class="form-control" required step="0">
+					<input type="number" step="0.1" id="Potassium" name="Potassium" placeholder="Enter Potassium" class="form-control" required step="0" min="0" max="50">
 				</div>
           </div>
 
           <div class="row mt-4">
 				<div class="col-md-4">
-					<input type="number" step="0.01" id="Temperature" name="Temperature" placeholder="Enter Temperature" class="form-control" required step="0">
+					<input type="number" step="0.1" id="Temperature" name="Temperature" placeholder="Enter Temperature" class="form-control" required step="0" min="0" max="50">
 				</div>
 				<div class="col-md-4">
-					<input type="number" step="0.01" id="Humidity" name="Humidity" placeholder="Enter Humidity (%)" class="form-control" required step="0">
+					<input type="number" step="0.1" id="Humidity" name="Humidity" placeholder="Enter Humidity (%)" class="form-control" required step="0" min="0" max="100">
 				</div>
 				<div class="col-md-4">
-					<input type="number" step="0.01" id="Ph" name="Ph" placeholder="Enter pH value" class="form-control" required step="0">
+					<input type="number" step="0.01" id="Ph" name="Ph" placeholder="Enter pH value" class="form-control" required step="0" min="0" max="8">
 				</div>
 			</div>
 
           <div class="row mt-4">
 				<div class="col-md-4">
-					<input type="number" step="0.01" id="Rainfall" name="Rainfall" placeholder="Enter Rainfall (mm)" class="form-control" required>
+					<input type="number" step="0.01" id="Rainfall" name="Rainfall" placeholder="Enter Rainfall (mm)" class="form-control" required step="10" min="0" max="300">
 				</div>
 			</div>
 

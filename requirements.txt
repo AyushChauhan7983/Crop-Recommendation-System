@@ -4,3 +4,4 @@ flask_sqlalchemy
 gunicorn
 pickleshare
 scikit-learn
+mysqlclient

@@ -6,7 +6,7 @@ import pickle
 from sqlalchemy.orm import Mapped, mapped_column
 
 # importing model
-model = pickle.load(open('RF.pkl','rb'))
+model = pickle.load(open('rf.pkl','rb'))
 
 # creating flask app
 app = Flask(__name__)

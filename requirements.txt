@@ -1,7 +1,8 @@
-numpy
-flask
+numpy~=1.25.0
+flask~=3.0.0
 flask_sqlalchemy
 gunicorn
 pickleshare
 scikit-learn
 mysqlclient
+SQLAlchemy~=2.0.27
